@@ -1,1 +1,9 @@
-;sarotuypr of;hgkljf;lkjf ifj  a;ksdhfaksdfskkbrkhsdheofhwe'oifhs;kjdf;kwejh 4woiruy hwhgs,nfbaerhwpiuhr piurh jkrhsl;dkfja;slrh;lwi jrtrwijwqp48ut powirjfp4out wpoirjqreoiugosfjkg q0p9w8u oirelkdjf;laksjagow4u paoigblhjkcnvmq p094etu dhfpq9w8 ojfkdkfjkdljf;woriu[wroiut[oigukjfhvakjsrhg[oqirwu [oisdjflakdsjfaosifjw[ 09u4ru9oifjdlkasdjfkldjfj     ;asdlfkja;lka;sldkjczm.,velirg ;oeiruwori uoiurtoiru t489t78r wjahngs wty484p8 p98t9385798y4hgyfh9w487t 3948gtryhv9w85yt9583ytrefdsipufhjzxcv,.mnxc.,mxncva;sf;alksdjfq[pweoriuthgbhiwrfsdjasdfkajsldjfosiurt ow4urtoikvjsldkfjbsljfbaopijrg[iaorwjgaoirjfo[ariaoiraoierpaoeiwroiruapowierupaoiweruigfjlkjfsdkjkjasdfiojklwrfsiojklgrdiobhujbkfasdfbhujkneafsdoipuhjewdgsfuoihewgsdfuoihlgjefsduihljkvefsduhkjbefuasdhfaiueuehihuehriwughriwurhgwiuehriwuehriuwh
+def pbcopy(input)
+  str = input.to_s
+  IO.popen('pbcopy', 'w') { |f| f << str }
+  str
+end
+
+def pbpaste
+  `pbpaste`
+end
